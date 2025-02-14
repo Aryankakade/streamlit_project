@@ -32,9 +32,9 @@ mdurl==0.1.2
 mysql-connector-python==9.2.0
 narwhals==1.26.0
 numpy==2.2.2
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
-pandas @ file:///D:/bld/pandas_1726878552024/work
-patsy @ file:///home/conda/feedstock_root/build_artifacts/patsy_1733792384640/work
+packaging==24.0
+pandas==2.2.0
+patsy==0.5.6
 pillow==11.1.0
 plotly==6.0.0
 protobuf==5.29.3
@@ -44,20 +44,20 @@ pydeck==0.9.1
 Pygments==2.19.1
 PyMySQL==1.1.1
 pyparsing==3.2.1
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
-pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+python-dateutil==2.9.0.post0
+pytz==2024.1
 referencing==0.36.2
 requests==2.32.3
 rich==13.9.4
 rpds-py==0.22.3
 scikit-learn==1.6.1
-scipy @ file:///C:/bld/scipy-split_1736617350587/work/dist/scipy-1.15.1-cp312-cp312-win_amd64.whl#sha256=f1467d731115e75ff363642247a85b1d925579a66dd0b7227e57057fd8257e5a
+scipy==1.15.1
 seaborn==0.13.2
 setuptools==75.8.0
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+six==1.16.0
 smmap==5.0.2
 SQLAlchemy==2.0.38
-statsmodels @ file:///D:/bld/statsmodels_1727986891317/work
+statsmodels==0.14.1
 streamlit==1.42.0
 streamlit_folium==0.24.0
 tenacity==9.0.0
@@ -65,7 +65,7 @@ threadpoolctl==3.5.0
 toml==0.10.2
 tornado==6.4.2
 typing_extensions==4.12.2
-tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1737541069190/work
+tzdata==2024.1
 urllib3==2.3.0
 watchdog==6.0.0
 Werkzeug==3.1.3
