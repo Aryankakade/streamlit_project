@@ -239,11 +239,11 @@ CORS(app)  # Enable CORS for Streamlit integration
 def get_db_connection():
     try:
         conn = pymysql.connect(
-            host=os.getenv("DB_HOST"),  # ✅ Fetch from environment variable
-            user=os.getenv("DB_USER"),
-            password=os.getenv("DB_PASS"),
-            database=os.getenv("DB_NAME"),
-            port=int(os.getenv("DB_PORT", 3306)),  # Default MySQL port 3306
+            host=os.getenv("DB_HOST", "localhost"),  # ✅ Fetch from environment variable, default "localhost"
+            user=os.getenv("DB_USER", "root"),  # ✅ Fetch user from env variable
+            password=os.getenv("DB_PASSWORD", "Aryankakade@143"),  # ✅ Fetch password securely
+            database=os.getenv("DB_NAME", "bank1"),  # ✅ Fetch DB name
+            port=int(os.getenv("DB_PORT", 3306)),  # ✅ Default MySQL port 3306
             cursorclass=pymysql.cursors.DictCursor
         )
         return conn
