@@ -2486,7 +2486,7 @@ st.markdown(
 )
 
 # ✅ Define API Base URL
-API_URL = "http://127.0.0.1:5000"
+API_URL = "https://flask-api-service-p5zg.onrender.com"
 
 # ✅ Fetch table data
 @st.cache_data
